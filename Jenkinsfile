@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile C:\Users\vahmad01\Documents\Jenkins-Shnenigans\git-project\simple-python-pyinstaller-app\sources C:\Users\vahmad01\Documents\Jenkins-Shnenigans\git-project\simple-python-pyinstaller-app\sources\calc.py' 
+                sh 'python -m py_compile /sources/add2vals.py sources/calc.py' 
             }
         }
     }
